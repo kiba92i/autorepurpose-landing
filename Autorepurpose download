@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AutoRepurpose — Transformez 1 vidéo en 10 contenus prêts à publier</title>
+  <meta name="description" content="AutoRepurpose découpe vos vidéos/podcasts et génère shorts, carrousels, posts LinkedIn, threads X et une newsletter — automatiquement.">
+  <meta name="robots" content="index,follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+  <meta property="og:title" content="AutoRepurpose — Transformez 1 vidéo en 10 contenus prêts à publier">
+  <meta property="og:description" content="Uploadez une vidéo → recevez un kit complet (shorts, carrousels, posts, newsletter).">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/og-cover.png">
+  <meta name="theme-color" content="#0b0f1a">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="container">
+  <nav class="nav">
+    <a class="brand" href="#top" aria-label="AutoRepurpose">
+      <img src="./assets/logo.svg" alt="AutoRepurpose" width="32" height="32">
+      <span>AutoRepurpose</span>
+    </a>
+    <div class="nav-links">
+      <a href="#features">Fonctionnalités</a>
+      <a href="#how">Comment ça marche</a>
+      <a href="#pricing">Tarifs</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn small" href="#cta">Essai gratuit</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero container">
+    <div class="hero-copy">
+      <h1>Transformez <span class="accent">1 vidéo</span> en <span class="accent">10 contenus</span> prêts à publier — automatiquement.</h1>
+      <p class="sub">AutoRepurpose découpe vos vidéos/podcasts et crée instantanément <b>shorts</b>, <b>carrousels</b>, <b>posts LinkedIn</b>, <b>threads X</b> et une <b>newsletter</b>. Plus besoin d'agence, tout est livré prêt à poster.</p>
+      <form id="lead-form" class="lead-form" aria-label="Inscription à la liste d'attente">
+        <input type="email" id="email" name="email" placeholder="Votre email professionnel" required aria-label="Email">
+        <button type="submit" class="btn">Rejoindre la liste d'attente</button>
+      </form>
+      <p class="trust">✅ Premier essai gratuit • ⏱️ Livraison &lt; 24h • 🔒 RGPD</p>
+    </div>
+    <div class="hero-art">
+      <img src="./assets/hero-illustration.svg" alt="Génération automatique de contenus multi-plateformes" loading="eager">
+    </div>
+  </section>
+
+  <section id="problem" class="problem container">
+    <div class="card">
+      <h2>Arrêtez de perdre des heures à réutiliser vos contenus</h2>
+      <ul class="bullets">
+        <li>Vos vidéos et podcasts finissent oubliés alors qu'ils pourraient devenir 10 posts.</li>
+        <li>Les outils actuels sont éparpillés et chronophages.</li>
+        <li>Les agences coûtent cher et demandent des allers-retours.</li>
+      </ul>
+      <p class="punch">👉 Ne laissez plus dormir vos contenus. AutoRepurpose fait le travail à votre place.</p>
+    </div>
+  </section>
+
+  <section id="features" class="features container">
+    <h2>Ce que vous recevez</h2>
+    <div class="grid">
+      <div class="feat">
+        <img src="./assets/icon-video.svg" alt="" aria-hidden="true">
+        <h3>3 Shorts/TikToks</h3>
+        <p>Clips 30–60s, sous-titrés et stylés, optimisés pour l'engagement.</p>
+      </div>
+      <div class="feat">
+        <img src="./assets/icon-carousel.svg" alt="" aria-hidden="true">
+        <h3>1 Carrousel LinkedIn/Instagram</h3>
+        <p>Slides clairs et percutants générés automatiquement.</p>
+      </div>
+      <div class="feat">
+        <img src="./assets/icon-post.svg" alt="" aria-hidden="true">
+        <h3>2 Posts + 1 Thread</h3>
+        <p>Texte prêt à l'emploi pour LinkedIn et X (Twitter), avec hashtags.</p>
+      </div>
+      <div class="feat">
+        <img src="./assets/icon-newsletter.svg" alt="" aria-hidden="true">
+        <h3>1 Newsletter</h3>
+        <p>Résumé 200–300 mots au bon ton, prêt à être envoyé.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="how container">
+    <h2>Comment ça marche</h2>
+    <ol class="steps">
+      <li><b>Upload.</b> Envoyez votre vidéo/podcast (ou collez un lien YouTube).</li>
+      <li><b>Auto.</b> Transcription ➝ découpe ➝ génération multi-format.</li>
+      <li><b>Livré.</b> Recevez votre kit prêt à publier en &lt; 24h.</li>
+    </ol>
+  </section>
+
+  <section id="social" class="social container">
+    <div class="compat">
+      <span>Compatible&nbsp;:</span>
+      <img src="./assets/logo-youtube.svg" alt="YouTube">
+      <img src="./assets/logo-tiktok.svg" alt="TikTok">
+      <img src="./assets/logo-linkedin.svg" alt="LinkedIn">
+      <img src="./assets/logo-instagram.svg" alt="Instagram">
+      <img src="./assets/logo-x.svg" alt="X">
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing container">
+    <h2>Tarifs simples</h2>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Starter</h3>
+        <p class="price">49€<span>/mois</span></p>
+        <ul>
+          <li>4 vidéos transformées</li>
+          <li>Watermark retiré</li>
+          <li>Support email</li>
+        </ul>
+        <a href="#cta" class="btn outline">Essai gratuit</a>
+      </div>
+      <div class="price-card highlight">
+        <h3>Pro</h3>
+        <p class="price">149€<span>/mois</span></p>
+        <ul>
+          <li>15 vidéos transformées</li>
+          <li>Sous-titres multilingues</li>
+          <li>Templates personnalisés</li>
+        </ul>
+        <a href="#cta" class="btn">Commencer</a>
+      </div>
+      <div class="price-card">
+        <h3>Agence</h3>
+        <p class="price">399€<span>/mois</span></p>
+        <ul>
+          <li>50 vidéos (multi-clients)</li>
+          <li>Brand kit dédié</li>
+          <li>Support prioritaire</li>
+        </ul>
+        <a href="#cta" class="btn outline">Nous contacter</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta" class="cta container">
+    <div class="card">
+      <h2>Prêt à récupérer du temps&nbsp;?</h2>
+      <p>Rejoignez la liste d'attente et recevez 1 kit gratuit à la sortie.</p>
+      <form id="lead-form-cta" class="lead-form">
+        <input type="email" id="email2" name="email" placeholder="Votre email" required>
+        <button type="submit" class="btn">Je m'inscris</button>
+      </form>
+      <p class="micro">En vous inscrivant, vous acceptez notre <a href="#privacy">politique de confidentialité</a>.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="faq container">
+    <h2>FAQ</h2>
+    <details>
+      <summary>Dois-je retoucher le contenu ?</summary>
+      <p>Non. Vous recevez des formats prêts à publier. Vous pouvez les modifier si vous le souhaitez.</p>
+    </details>
+    <details>
+      <summary>Quels formats acceptez-vous&nbsp;?</summary>
+      <p>Vidéo (MP4, MOV, lien YouTube) et audio (MP3, WAV, liens podcast).</p>
+    </details>
+    <details>
+      <summary>Combien de temps pour recevoir mon kit&nbsp;?</summary>
+      <p>Moins de 24h dans la plupart des cas (suivant la durée du contenu source).</p>
+    </details>
+  </section>
+
+  <section id="privacy" class="privacy container">
+    <h2>Confidentialité</h2>
+    <p>Vos fichiers sont stockés de manière sécurisée et supprimés automatiquement après traitement, sauf si vous choisissez de les conserver dans votre bibliothèque. Conformité RGPD — hébergement UE disponible.</p>
+  </section>
+</main>
+
+<footer class="footer container">
+  <div class="foot-grid">
+    <a class="brand" href="#top">
+      <img src="./assets/logo.svg" alt="" width="28" height="28">
+      <span>AutoRepurpose</span>
+    </a>
+    <nav class="foot-links">
+      <a href="#features">Fonctionnalités</a>
+      <a href="#pricing">Tarifs</a>
+      <a href="#faq">FAQ</a>
+      <a href="mailto:contact@autorepurpose.io">Contact</a>
+    </nav>
+    <p class="copy">© <span id="year"></span> AutoRepurpose. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
+
+# AutoRepurpose — Landing Page (statique)
+
+Cette landing est prête pour être déployée sur **Vercel**, **Netlify**, **Cloudflare Pages** ou **GitHub Pages**.
+
+## Déploiement rapide
+
+### Option 1 — Vercel
+1. Créez un repo GitHub et uploadez ces fichiers.
+2. Sur vercel.com, importez le repo, framework = "Autre".
+3. Build command: _(aucune)_. Output: `/`.
+4. Déployer.
+
+### Option 2 — Netlify (drag & drop)
+1. Zippez ce dossier (ou utilisez le zip fourni).
+2. Connectez-vous sur app.netlify.com → **Sites** → **Drag and drop** votre zip.
+
+### Option 3 — GitHub Pages
+1. Poussez les fichiers sur une branche `main`.
+2. Settings → Pages → Branch: `main` / root → Save.
+
+## Formulaire (collecte emails)
+Par défaut, le formulaire stocke l'email dans `localStorage` pour la démo. Remplacez le code côté `script.js` par l'appel à votre :
+- **Tally** / **Typeform** / **Airtable** (webhook), ou
+- **Netlify Forms** (ajoutez `data-netlify="true"` au `<form>`).
+
+Exemple Netlify Forms:
+```html
+<form name="waitlist" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="waitlist">
+  <input type="email" name="email" required>
+  <button type="submit">S'inscrire</button>
+</form>
+```
+
+## Personnalisation
+- Texte: `index.html`
+- Couleurs/typographies: `styles.css`
+- Icônes et illustrations: `/assets`
+
+## SEO
+- Balises meta/OG déjà en place.
+- Ajoutez votre domaine personnalisé (ex: autorepurpose.io).
+
+---
+
+© AutoRepurpose. 
+
+// Simple landing interactions (no external deps)
+const yearSpan = document.getElementById('year');
+if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+
+function wireForm(id){
+  const form = document.getElementById(id);
+  if(!form) return;
+  form.addEventListener('submit', async (e)=>{
+    e.preventDefault();
+    const email = form.querySelector('input[type="email"]').value.trim();
+    if(!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+      alert("Email invalide. Merci de vérifier.");
+      return;
+    }
+    try{
+      // Replace this with your endpoint: e.g., Tally, Typeform, Airtable, or Simple webhook
+      // For demo purposes, we store locally and show a message.
+      const existing = JSON.parse(localStorage.getItem('autorepurpose_waitlist')||'[]');
+      if(!existing.includes(email)){
+        existing.push(email);
+        localStorage.setItem('autorepurpose_waitlist', JSON.stringify(existing));
+      }
+      form.innerHTML = '<span class="ok">Merci ! Vous êtes inscrit(e). Nous vous contacterons très vite.</span>';
+    }catch(err){
+      console.error(err);
+      alert("Une erreur est survenue. Réessayez plus tard.");
+    }
+  });
+}
+wireForm('lead-form');
+wireForm('lead-form-cta');
+
+/* AutoRepurpose Landing — minimal, responsive, accessible */
+:root{
+  --bg:#0b0f1a;
+  --card:#121826;
+  --muted:#94a3b8;
+  --text:#e5e7eb;
+  --white:#ffffff;
+  --accent:#7c5cff;
+  --accent-2:#46e3b7;
+  --stroke:#1f2937;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+img{max-width:100%;height:auto;display:block}
+.container{width:min(1120px,92%);margin-inline:auto}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--white);text-decoration:none}
+.nav-links{display:flex;align-items:center;gap:18px}
+.nav-links a{color:var(--text);text-decoration:none;font-weight:500;opacity:.9}
+.nav-links a:hover{opacity:1}
+.btn{background:var(--accent);color:#fff;border:none;border-radius:10px;padding:12px 18px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;box-shadow:0 8px 20px rgba(124,92,255,.25);transition:transform .12s ease,box-shadow .12s ease}
+.btn:hover{transform:translateY(-1px);box-shadow:0 10px 24px rgba(124,92,255,.35)}
+.btn.small{padding:8px 12px;font-size:.95rem}
+.btn.outline{background:transparent;border:1px solid var(--accent);color:var(--white);box-shadow:none}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center;padding:42px 0 12px}
+.hero h1{font-size: clamp(2rem, 3vw + 1rem, 3rem);line-height:1.15;margin:0 0 12px}
+.accent{background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--muted);font-size:1.05rem;margin:0 0 18px}
+.lead-form{display:flex;gap:10px;flex-wrap:wrap}
+.lead-form input{flex:1;min-width:240px;padding:12px 14px;border-radius:10px;border:1px solid var(--stroke);background:var(--card);color:var(--text)}
+.trust{font-size:.95rem;color:var(--muted);margin-top:10px}
+.hero-art{border:1px solid var(--stroke);background:linear-gradient(180deg,#0e1423,#0b0f1a);padding:18px;border-radius:16px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.02)}
+.problem .card,.cta .card{background:var(--card);border:1px solid var(--stroke);padding:24px;border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.problem h2,.features h2,.how h2,.pricing h2,.faq h2,.privacy h2{font-size: clamp(1.6rem, 1.8vw + .6rem, 2.2rem);margin:0 0 10px}
+.bullets{margin:10px 0 0 0;padding-left:18px}
+.punch{margin-top:10px;color:var(--text);font-weight:600}
+.features .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.feat{background:var(--card);border:1px solid var(--stroke);border-radius:14px;padding:18px}
+.feat h3{margin:10px 0 6px}
+.how .steps{counter-reset:step;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-left:0}
+.how .steps li{list-style:none;background:var(--card);border:1px solid var(--stroke);border-radius:14px;padding:18px;position:relative}
+.how .steps li::before{counter-increment:step;content:counter(step);position:absolute;top:-12px;left:-12px;background:var(--accent);color:#fff;font-weight:800;border-radius:999px;width:32px;height:32px;display:grid;place-items:center;box-shadow:0 10px 20px rgba(124,92,255,.3)}
+.social .compat{display:flex;align-items:center;gap:16px;flex-wrap:wrap;opacity:.85}
+.social img{height:22px}
+.pricing .pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.price-card{background:var(--card);border:1px solid var(--stroke);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:8px}
+.price-card.highlight{outline:2px solid var(--accent)}
+.price{font-size:2rem;font-weight:800}
+.price span{font-size:1rem;color:var(--muted);font-weight:600}
+.price-card ul{margin:0;padding-left:18px;color:var(--muted)}
+.cta .card h2{margin:0 0 8px}
+.faq details{background:var(--card);border:1px solid var(--stroke);border-radius:12px;padding:14px;margin-bottom:10px}
+.footer{padding:36px 0 60px}
+.foot-grid{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:center}
+.foot-links{display:flex;gap:16px;justify-content:center}
+.copy{justify-self:end;color:var(--muted)}
+@media (max-width: 980px){
+  .hero{grid-template-columns:1fr;gap:24px}
+  .features .grid{grid-template-columns:repeat(2,1fr)}
+  .how .steps{grid-template-columns:1fr}
+  .pricing .pricing-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr;gap:8px;text-align:center}
+  .copy{justify-self:center}
+}
