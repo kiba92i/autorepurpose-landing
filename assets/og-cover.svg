@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">AutoRepurpose — Transformez 1 vidéo en 10 contenus prêts à publier</title>
+  <desc id="desc">Bannière de prévisualisation pour les réseaux sociaux avec un fond dégradé sombre et des encadrés décrivant les formats générés par AutoRepurpose.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a1f35" />
+      <stop offset="50%" stop-color="#14182b" />
+      <stop offset="100%" stop-color="#0b0f1a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7c5cff" />
+      <stop offset="100%" stop-color="#46e3b7" />
+    </linearGradient>
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="1200" height="630" rx="48" ry="48" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="630" fill="url(#bg)" />
+    <circle cx="1080" cy="-40" r="380" fill="#1f2642" opacity="0.45" />
+    <circle cx="-120" cy="560" r="360" fill="#12172a" opacity="0.55" />
+    <g transform="translate(120 120)">
+      <rect x="0" y="0" width="360" height="56" rx="28" fill="rgba(15,22,36,0.72)" stroke="rgba(124,92,255,0.25)" />
+      <text x="32" y="36" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" fill="#cbd5f5">Réutilisation automatisée</text>
+    </g>
+    <text x="120" y="250" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="60" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">
+      Transformez <tspan fill="url(#accent)">1 vidéo</tspan>
+    </text>
+    <text x="120" y="324" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="60" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">
+      en <tspan fill="url(#accent)">10 contenus</tspan> prêts à publier.
+    </text>
+    <text x="120" y="380" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="24" fill="#94a3b8">
+      Shorts · Carrousels · Posts LinkedIn · Threads X · Newsletter
+    </text>
+    <g transform="translate(120 420)">
+      <rect width="320" height="140" rx="24" fill="rgba(15,22,36,0.85)" stroke="rgba(124,92,255,0.4)" />
+      <text x="28" y="60" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#f8fafc">Kit prêt à publier</text>
+      <text x="28" y="94" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="18" fill="#cbd5f5">Livraison &lt; 24h · RGPD</text>
+    </g>
+    <g transform="translate(480 420)">
+      <rect width="320" height="140" rx="24" fill="rgba(15,22,36,0.75)" stroke="rgba(70,227,183,0.35)" />
+      <text x="28" y="60" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#f8fafc">Montage + rédaction</text>
+      <text x="28" y="94" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="18" fill="#cbd5f5">Sans agence, sans retouches</text>
+    </g>
+    <g transform="translate(840 420)">
+      <rect width="240" height="140" rx="24" fill="rgba(15,22,36,0.65)" stroke="rgba(124,92,255,0.3)" />
+      <text x="24" y="60" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#f8fafc">Inscrivez-vous</text>
+      <text x="24" y="94" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="18" fill="#cbd5f5">auto repurpose . io</text>
+    </g>
+    <rect x="1100" y="520" width="220" height="220" fill="url(#accent)" transform="rotate(-18 1210 630)" opacity="0.18" />
+  </g>
+</svg>
